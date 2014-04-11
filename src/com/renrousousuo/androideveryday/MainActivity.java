@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 		EverydayBase.everydayBases.add(new Time20130826());
 		EverydayBase.everydayBases.add(new Time20130827());
 		EverydayBase.everydayBases.add(new Time20140410());
+		EverydayBase.everydayBases.add(new Time20140411());
 	}
 	
 	@Override
