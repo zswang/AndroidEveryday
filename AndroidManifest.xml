@@ -50,8 +50,13 @@
     <uses-permission android:name="android.permission.READ_LOGS" >
     </uses-permission>
 
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
     <application
-        android:name="EverydayApplication"
+        android:name="com.renrousousuo.androideveryday.EverydayApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -75,6 +80,11 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="8YIqS8pkattbIdsH2xgoEqLG" />
+
+        <activity
+            android:name="com.renrousousuo.androideveryday.CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
     </application>
 
 </manifest>
