@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
 	public static final String LOG_TAG = "Everyday";
 
 	static {
+		EverydayBase.everydayBases.add(new Time20140414());
 		EverydayBase.everydayBases.add(new Time20140413());
 		EverydayBase.everydayBases.add(new Time20140412());
 		EverydayBase.everydayBases.add(new Time20140411());
